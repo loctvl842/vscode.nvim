@@ -20,6 +20,8 @@ package.loaded['vscode.Bqf'] = nil
 package.loaded['vscode.Cmp'] = nil
 package.loaded['vscode.SymbolOutline'] = nil
 package.loaded['vscode.Misc'] = nil
+package.loaded['vscode.NeoTree'] = nil
+package.loaded['vscode.BufferLine'] = nil
 
 require("vscode")
 EOF

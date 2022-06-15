@@ -32,6 +32,7 @@ local SymbolOutline = require("vscode.SymbolOutline")
 local Notify = require("vscode.Notify")
 local Misc = require("vscode.Misc")
 local NeoTree = require("vscode.NeoTree")
+local BufferLine = require("vscode.BufferLine")
 
 local skeletons = {
 	highlights,
@@ -57,6 +58,7 @@ local skeletons = {
 	Notify,
 	Misc,
 	NeoTree,
+	BufferLine,
 }
 
 for _, skeleton in ipairs(skeletons) do

@@ -7,7 +7,7 @@ local NeoTree = {
 	NeoTreeStatusLine = { fg = C.tree_gray, bg = "#007acc" },
 	NeoTreeCursorLine = { bg = C.cursor_line },
 	-- NeoTreeWinSeparator = { fg = C.bg, bg = C.bg },
-	NeoTreeWinSeparator = { fg = C.tree_gray, bg = C.tree_gray },
+	NeoTreeWinSeparator = { fg = C.bg, bg = C.bg },
 	NeoTreeRootName = { style = "bold" },
 	NeoTreeDirectoryIcon = { fg = C.dir_icon },
 	NeoTreeDirectoryName = { fg = C.dir_name },
